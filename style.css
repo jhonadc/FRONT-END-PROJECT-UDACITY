@@ -1,0 +1,166 @@
+/*START OF GENERAL CSS*/ 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top:0px;
+    margin-left:12vw;
+    margin-right:12vw;
+    }
+
+/*END OF GENERAL CSS*/ 
+
+
+/* START OF HEADER CSS */
+.header {
+    min-height: 150px;
+    width: 100%;
+    text-align: right;
+    padding-right: 15px;
+    border: 1px solid black;
+    }
+ 
+.logo {
+    float: left;
+    min-width: 150px;
+    max-height: 150px;
+    height:auto;
+    width:auto;
+    border
+    }    
+
+.nametitle {  
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    font-size: 3em;
+    line-height: 1em;
+    vertical-align: text-top;
+   /* font-weight: bold; */
+    color: black;
+    }
+
+.description {
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-family: 'Inconsolata', monospace;
+    font-style: italic;
+    line-height: 0;
+    }
+
+hr {
+    position: fixed
+}
+          
+/* END OF HEADER CSS */
+
+/* NAVIGATION CSS */
+.nav {
+    width: 100%;
+    font-family: 'Inconsolata', monospace;
+    text-align: right;
+    font-size: 2em;
+	margin-top: 15px;
+    padding: 15px;
+    border: 1px solid black;
+    }
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+li {
+    display: inline;
+    }
+
+a:link, a:visited {
+  background-color: lightblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inconsolata', monospace;
+  
+}
+
+/* END OF NAVIGATION */
+
+
+
+/* START OF CONTENT */
+
+content {
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    }
+
+.contentimagebox{
+    margin-left:50vw;
+}   
+  
+.contentimage {
+    height: 400px;
+    width: 550px;
+    display: inline-block;
+    }
+/* END OF CONTENT */
+
+
+
+/* START OF SECTION */
+
+.section {
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.imgbox {
+    margin-left: 12vw;
+}
+
+.imgsection {
+   width: 16vw;
+   height: 28vh;
+   padding: 1vw;
+   display: inline-block
+}
+
+.section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sectionintro {
+    margin-top: 15px;
+    font-size: 2em;
+    line-height: 1em;
+    font-family: 'Inconsolata', monospace;
+    vertical-align: text-top;
+    color: darkslategray;
+}
+
+/* .figure {
+display: inline-block;
+} */
+
+/*END OF SECTION */
+
+/* START OF FOOTER */
+footer {
+    font-size: 1em;
+    text-align: end;
+    }
+/*END OF FOOTER */
+
+
+/*.inspect {
+      border: 1px solid red;
+    }
+
